@@ -452,7 +452,7 @@ Transform:
   m_GameObject: {fileID: 572957324}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.5, z: 0}
+  m_LocalPosition: {x: 0, y: -0.73, z: 0}
   m_LocalScale: {x: 1, y: 0.1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1853,8 +1853,8 @@ BoxCollider2D:
   m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
+    pivot: {x: 0.7451562, y: 0.36555946}
+    oldSize: {x: 2, y: 2}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -1938,7 +1938,7 @@ SpriteRenderer:
   m_SortingLayer: 6
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
+  m_Sprite: {fileID: 4683765288755466411, guid: cabd442bbc88a4ba7b875048a7c25cf7, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1959,7 +1959,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 572957325}
   - {fileID: 519420032}
@@ -2104,8 +2104,8 @@ CapsuleCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
-  m_Size: {x: 0.85, y: 1}
+  m_Offset: {x: 0, y: -0.145746}
+  m_Size: {x: 0.8500001, y: 1.2914929}
   m_Direction: 0
 --- !u!1 &2016437333
 GameObject:
@@ -2208,7 +2208,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 935689758735239263, guid: 2aabffdb166505f4eb56beafabb0d136, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 7.54
+      value: 7.3
       objectReference: {fileID: 0}
     - target: {fileID: 935689758735239263, guid: 2aabffdb166505f4eb56beafabb0d136, type: 3}
       propertyPath: m_LocalPosition.y
@@ -2230,9 +2230,45 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1186312875966882495, guid: 2aabffdb166505f4eb56beafabb0d136, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -1633167307908900626, guid: 85291d99fe6cf46baa2f12686cde50cc, type: 3}
+    - target: {fileID: 3873374615941305698, guid: 2aabffdb166505f4eb56beafabb0d136, type: 3}
+      propertyPath: m_Size.x
+      value: 2.5050828
+      objectReference: {fileID: 0}
+    - target: {fileID: 3873374615941305698, guid: 2aabffdb166505f4eb56beafabb0d136, type: 3}
+      propertyPath: m_Size.y
+      value: 1.4709945
+      objectReference: {fileID: 0}
+    - target: {fileID: 3873374615941305698, guid: 2aabffdb166505f4eb56beafabb0d136, type: 3}
+      propertyPath: m_Offset.x
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 3873374615941305698, guid: 2aabffdb166505f4eb56beafabb0d136, type: 3}
+      propertyPath: m_Offset.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3873374615941305698, guid: 2aabffdb166505f4eb56beafabb0d136, type: 3}
+      propertyPath: m_Direction
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6964602730831544774, guid: 2aabffdb166505f4eb56beafabb0d136, type: 3}
       propertyPath: m_Name
       value: Enemy
+      objectReference: {fileID: 0}
+    - target: {fileID: 7577566595571520683, guid: 2aabffdb166505f4eb56beafabb0d136, type: 3}
+      propertyPath: m_SpriteTilingProperty.pivot.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7577566595571520683, guid: 2aabffdb166505f4eb56beafabb0d136, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 2.56
+      objectReference: {fileID: 0}
+    - target: {fileID: 7577566595571520683, guid: 2aabffdb166505f4eb56beafabb0d136, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 1.17
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
