@@ -9,6 +9,7 @@ TagManager:
   - Sword
   - Arrow
   - IceArrow
+  - Boss
   layers:
   - Default
   - TransparentFX

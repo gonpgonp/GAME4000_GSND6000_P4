@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 4384678634754754247}
   - component: {fileID: 8458870049630522685}
   m_Layer: 0
-  m_Name: ArrowAmmo
+  m_Name: IceArrowAmmo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -249,7 +249,7 @@ MonoBehaviour:
   _data:
     _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
     _objectReferences:
-    - {fileID: 11400000, guid: 25f25bd939a8ec947b04453c73ed109a, type: 2}
+    - {fileID: 11400000, guid: 1e321bf6f876db44cb51fc241ff5a1c2, type: 2}
 --- !u!1 &4317952363032359228
 GameObject:
   m_ObjectHideFlags: 0
@@ -332,7 +332,7 @@ SpriteRenderer:
   m_SortingOrder: 0
   m_MaskInteraction: 0
   m_Sprite: {fileID: -765150924802650856, guid: 840d7d747b7e04c62b7fa16372ec4aab, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0, g: 1, b: 0.99215686, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
