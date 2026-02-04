@@ -1062,34 +1062,6 @@
                     "isPartOfComposite": false
                 }
             ]
-        },
-        {
-            "name": "Game",
-            "id": "35b08a33-6f43-4103-b4a6-01ddfd4372d9",
-            "actions": [
-                {
-                    "name": "Restart",
-                    "type": "Button",
-                    "id": "9d0f3953-9ae6-42f9-a403-33bf2f34e6fa",
-                    "expectedControlType": "",
-                    "processors": "",
-                    "interactions": "",
-                    "initialStateCheck": false
-                }
-            ],
-            "bindings": [
-                {
-                    "name": "",
-                    "id": "63dc9d62-b022-47ac-9dea-a30881505ad3",
-                    "path": "<Keyboard>/r",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "Restart",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                }
-            ]
         }
     ],
     "controlSchemes": [
